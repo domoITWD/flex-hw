@@ -1,0 +1,320 @@
+/*Page One*/
+.fullPage {
+  margin: 2vmax;
+}
+
+/*I created a container for the entire page to allow for full control over margin.*/
+.Index {
+  background-image: url('https://lh5.googleusercontent.com/J7oTFvfFPGd-nPewQwrxjnVoA_TzhBv_46RnNLruzaki0iGhB0-m4IsW-EZeRQZ7x6g7LjWWc4bui6E_LMzcbcvF8gM5CIhtk0IhsSqPMLTVZAant1UhdrcYBDVUGQE3SavsgQc5');
+  display: flex;
+  /*flex-direction: column;
+  width: 50vw;*/
+  background-size: cover;
+  background-position: center;
+  /*This allows for the displayed image to appear perfectly centered in its relative div.*/
+  background-attachment: fixed;
+  /*This allowed for the what I call the 'wallpaper' effect.*/
+  margin: 0;
+  padding: 10vmin;
+  /*A percentage of the viewport width or height, whichever is smaller.*/
+}
+
+.flexLogo {
+  background-attachment: scroll;
+  /*The logo follows the userwhen this attribute is added.*/
+  background-color: #fff;
+  color: #000;
+  font-weight: bolder;
+  text-decoration: overline;
+  position: fixed;
+  font-family: 'Josefin Slab';
+  /*Use of imported font*/
+  font-weight: lighter;
+  right: 2vmax;
+  top: 2vmax;
+  margin: 2vmax;
+  padding: 2vmin;
+  opacity: 0.6;
+  /*For design purposes, I opted for a transparent look. My hope is that it made the webpage's personality softer + friendlier.*/
+}
+
+.containerOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3vmin;
+  margin-top: 10vmin;
+  /*controls the entire menu.*/
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 5vmax;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  padding: 10vmin;
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 5vmin;
+  border-color: #fff;
+  display: flex;
+  padding-top: 3vmin;
+  margin-top: 10vmin;
+}
+
+.NavLink {
+  color: #fff;
+  text-decoration: none;
+  /*Takes away link.*/
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 6vmin;
+  text-align: right;
+}
+
+.mainText {
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 6vmin;
+  text-align: justify;
+  /*Controls main index text.*/
+}
+
+.Footer {
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+  justify-content: center;
+  font-weight: lighter;
+  color: #333;
+  padding: 3vmin;
+}
+
+/*Page Two*/
+.containerThree {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8C8070;
+  /*Menu div*/
+}
+
+.NavLink2 {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 6vmin;
+  text-align: right;
+  /*individual links*/
+}
+
+.containerFour {
+  display: flex;
+  flex-direction: column;
+  background-image: url('http://www.moma.org/media/W1siZiIsIjQyMzQ5NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=8a32018bd89aaaf0');
+  opacity: 0.8;
+  height: 30vh;
+  padding: 10vmin;
+  background-position: center;
+  margin-top: 3vmin;
+  /*hero image for Toyin*/
+}
+
+.artist1 {
+  font-size: 4vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  /*artist name*/
+}
+
+.Toyin {
+  padding: 10vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 5vmin;
+  /*artist bio*/
+}
+
+.containerFive {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://www.pica.org/wp-content/uploads/2016/07/JH02-hero@2x.jpg');
+  opacity: 0.8;
+  height: 30vh;
+  padding: 10vmin;
+  background-position: center;
+  margin-top: 3vmin;
+}
+
+.artist2 {
+  font-size: 4vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+.Juliana {
+  padding: 10vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 5vmin;
+}
+
+.containerSix {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://www.palaisdetokyo.com/sites/default/files/event/slideshow/pdt_2018-nina_chanel_abney-006_0.jpg');
+  opacity: 0.7;
+  height: 30vh;
+  padding: 10vmin;
+  background-position: center;
+  margin-top: 3vmin;
+}
+
+.artist3 {
+  font-size: 4vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+.Nina {
+  padding: 10vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  line-height: 5vmin;
+}
+
+.fullPage2 {
+  margin: 3vmax;
+  padding: 2vmin;
+}
+
+/*Page Three*/
+/*Changing the varible anmes slightly allowed me to keep an organized structure but still tweak individual images.*/
+.Artist1 {
+  text-align: center;
+  font-size: 4vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+}
+
+.rowOne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image1 {
+  background-image: url('https://www.jackshainman.com/files/4513/8604/9974/TOa.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url('https://www.studiointernational.com/images/articles/o/odutola-toyin_2015/1_All%20these%20garlands%20prove%20nothing%20X.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url('http://www.jackshainman.com/files/cache/c96568ee4524f80c92141c137da436df.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+/*This completes section 1 artist 1*/
+.Artist2 {
+  text-align: center;
+  font-size: 4vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+}
+
+.rowTwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Image1 {
+  background-image: url('https://www.moca.org/storage/app/uploads/public/57f/2c3/97a/thumb_1884_1120_0_0_0_auto.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+.Image2 {
+  background-image: url('http://static1.squarespace.com/static/59d3cd0018b27da72d9d4db4/59f1c5058dd04110a80ac914/5a1d61cac83025aa86c9875e/1522038171797/6092942.jpeg?format=1500w');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+.Image3 {
+  background-image: url('https://www.pica.org/wp-content/uploads/2016/07/JH02-hero@2x1.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+/*This completes section 2 artist 2*/
+.ArtistThree {
+  display: flex;
+  justify-content: center;
+  font-size: 4vmin;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  margin-top: 5vmax;
+  margin-bottom: 5vmax;
+}
+
+.rowThree {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vmin;
+}
+
+.IMage1 {
+  background-image: url('https://www.jackshainman.com/files/9615/3910/9162/NCA18.009_Always_Ready_Always_There_crop_lr.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+.IMage2 {
+  background-image: url('https://i.pinimg.com/originals/e6/70/72/e670723a4a02b8165ec45590c3ff1f09.jpg');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+.IMage3 {
+  background-image: url('https://i0.wp.com/www.culturetype.com/wp-content/uploads/2018/10/013-500-009_LetsWorkLetsPlayLetsLiveTogether.jpg?ssl=1');
+  width: 44vmin;
+  height: 44vmin;
+  background-position: center;
+  background-size: cover;
+}
+
+/*This completes section 3 artist 3*/
